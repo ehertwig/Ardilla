@@ -1,5 +1,6 @@
 body {
-    padding-top: 90px;
+    padding-top: 200px;
+    font-family: 'Raleway',sans-serif;
 }
 
 
@@ -8,15 +9,39 @@ body {
     background-color: #A7A2A2;
     border-bottom: 1px solid #333;
     padding-top: 30px;
-    color: white;
     margin-bottom: 10px;
 }
+ .navbar-default .navbar-nav>li>a {
+   color: white;
+}
+.title {
+    color: white;
+    font-size: 2em;
+    font-family: 'Yellowtail', sans-serif;
+    margin-left: 40px;
+}
+.spanish {
+    margin-left: 5px;
+    
+}
+.flag {
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+}
+.flag:hover {
+    opacity: .5;
+}
 
+/*---------------Home-------------------*/
+.lead.home{
+    margin-bottom: 80px;
+}
 /*----------------Bio-------------------*/
 
 .img-circle {
     border: 1px solid #453636;
-    height: 140px;
+    height: 160px;
     width: auto;
     margin-bottom: 10px;
 }
@@ -31,3 +56,36 @@ body {
   padding: auto;
 }
 
+/*--------------Contact-----------------*/
+
+.lead {
+   width: 75%; 
+   margin: 0 auto;
+}
+.contact-email {
+    margin-bottom: 40px;
+}
+
+label {
+    font-weight: 300;
+}
+.form-name,.form-email,.form-message,.form-button {
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.form-message {
+    height: 100px;
+    width: 300px;
+    position: relative;
+}
+.form-button {
+    width: 100px
+}
+
+/*-----------------Footer-----------------*/
+
+#footer {
+    
+
+}
