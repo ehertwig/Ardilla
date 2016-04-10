@@ -53,10 +53,14 @@
     <p class="contact-email">info@maddyisawesome.com</p>
   
     <form method="get" action="">
+        <div class="alert alert-danger alert-name" role="alert">Name field must contain only letters.</div>
+
         <p>
-            <label for="name">NAME:</label>
+            <label  for="name">NAME:</label>
             <input class="form-name"type="text" name="name">
         </p>
+        <div class="alert alert-danger alert-email" role="alert">Not a valid email.</div>
+
         <p>
             <label for="email">EMAIL:</label>
             <input  class="form-email"type="text" name="email">
@@ -68,6 +72,8 @@
         <p>
           <input  class="form-button"type="submit" value="Send">
         </p>
+        <div class="alert alert-success" role="alert">Your form has successfully sent!</div>
+
     </form>
     </div>
     <script src="js/main.js"></script>
