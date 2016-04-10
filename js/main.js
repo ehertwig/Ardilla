@@ -1,5 +1,7 @@
-document.ready(function(){
-    if($('.form-name').match(/^[a-z]+/i)) {
-        $('.').text('Name field must contain only letters.');
-    }
+$(document).ready(function(){
+    $('.form-button').click(function(){
+      if($('.form-name').match(/[0-9]+/)) {
+        $('.alert').css('display','block');
+      }
+    });
 });

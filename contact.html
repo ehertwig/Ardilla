@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <!-- Wrap all page content here -->
+<!-- Wrap all page content here -->
 <div id="wrap">
   
   <!-- Fixed navbar -->
@@ -29,9 +29,9 @@
       </div>
       <div class="collapse navbar-collapse pull-right">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#about">BIOS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <li class="active"><a href="ardilla.html">HOME</a></li>
+          <li><a href="bios.html">BIOS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -44,38 +44,49 @@
               <li><a href="#">One more separated link</a></li>
             </ul>
           </li>
+          <li><img class="us flag" src="images/us-flag.gif" alt="English language"></li>
+          <li><img class="spanish flag" src="images/spain-flag.gif" alt="Spanish language"></li>
+
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </div>
+  
   <div class="lead">
-      <h3>Contact us for a free quote.  Really, it's free so drop us a line.</h3>
-    <p class="contact-email">info@maddyisawesome.com</p>
+        <h1 class="page-head">Contact Us</h1>
+    <div class="separator"></div>
+      <h3 class="contact-paragraph">Contact us for a free quote.  Really, it's free so drop us a line.</h3>
+    <p class="text-muted contact-email">info@maddyisawesome.com</p>
   
     <form method="get" action="">
         <div class="alert alert-danger alert-name" role="alert">Name field must contain only letters.</div>
 
         <p>
-            <label  for="name">NAME:</label>
+            <label  for="name">Name:</label>
             <input class="form-name"type="text" name="name">
         </p>
         <div class="alert alert-danger alert-email" role="alert">Not a valid email.</div>
 
         <p>
-            <label for="email">EMAIL:</label>
+            <label for="email">Email:</label>
             <input  class="form-email"type="text" name="email">
         </p>
         <p>
-            <label for="message">MESSAGE:</label>
+            <label for="message">Message:</label>
             <textarea class="form-message" type="text" name="message"></textarea>
         </p>
         <p>
-          <input  class="form-button"type="submit" value="Send">
+          <input class="form-button"type="submit" value="Send">
         </p>
         <div class="alert alert-success" role="alert">Your form has successfully sent!</div>
 
     </form>
     </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
     <script src="js/main.js"></script>
 </body>
 
