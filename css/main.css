@@ -53,7 +53,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#babcbe', end
     margin-bottom: 10px;
 }
 .name {
-    text-align: center;
 }
 .maddy-row,.violeta.row {
     margin-bottom: 30px;
@@ -120,4 +119,12 @@ label {
 
 .alert {
     display: none;
+}
+
+.bio-description {
+    float: right;
+}
+
+.image-box {
+    float: left;
 }
