@@ -58,7 +58,7 @@
       <h3 class="contact-paragraph">Contact us for a free quote.  Really, it's free so drop us a line.</h3>
     <p class="text-muted contact-email">info@maddyisawesome.com</p>
   
-    <form method="get" action="">
+    <form method="get" action="<?= $_SERVER['PHP_SELF'];?>">
         <div class="alert alert-danger alert-name" role="alert">Name field must contain only letters.</div>
 
         <p>
@@ -81,7 +81,7 @@
         <div class="alert alert-success" role="alert">Your form has successfully sent!</div>
 
     </form>
-    </div>
+            </div>
     </div>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
