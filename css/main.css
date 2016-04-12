@@ -1,49 +1,63 @@
 body {
     padding-top: 150px;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background: #f6f6f8;
 }
 
 
 /*----------------Navbar----------------*/
-.navbar-default {
-    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#babcbe+0,8c8e90+36,383b3c+100 */
-background: #babcbe; /* Old browsers */
-background: -moz-linear-gradient(top,  #babcbe 0%, #8c8e90 36%, #383b3c 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #babcbe 0%,#8c8e90 36%,#383b3c 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #babcbe 0%,#8c8e90 36%,#383b3c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#babcbe', endColorstr='#383b3c',GradientType=0 ); /* IE6-9 */
 
-;
-    border-bottom: 1px solid #333;
-    padding-top: 30px;
+.navbar-default {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
+    -webkit-box-shadow: -4px 13px 22px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 13px 22px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: -4px 13px 22px -13px rgba(0, 0, 0, 0.75);
 }
- .navbar-default .navbar-nav>li>a {
-   color: white;
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
 }
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #a9a9ba;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    padding-top: 40px;
+}
+
 .title {
     color: white;
     font-size: 2em;
     font-family: 'Yellowtail', sans-serif;
     margin-left: 40px;
 }
+
 .spanish {
     margin-left: 5px;
-    
 }
+
 .flag {
-    border-radius: 5px;
     width: 30px;
     height: 20px;
+    margin: 10px 0 0 10px;
 }
+
 .flag:hover {
     opacity: .5;
 }
 
+
 /*---------------Home-------------------*/
-.lead.home{
+
+.lead.home {
     margin-bottom: 80px;
 }
+
+
 /*----------------Bio-------------------*/
 
 .img-rounded {
@@ -52,12 +66,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#babcbe', end
     width: auto;
     margin-bottom: 10px;
 }
-.name {
-}
-.maddy-row,.violeta.row {
+
+.name {}
+
+.maddy-row,
+.violeta.row {
     margin-bottom: 30px;
-    
 }
+
+
 /*.col-xs-12.bio-description {
     margin: 5px;
     box-sizing: border-box;
@@ -67,16 +84,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#babcbe', end
 /*--------------Contact-----------------*/
 
 .lead {
-   width: 75%; 
-   margin: 0 auto;
+    width: 75%;
+    margin: 0 auto;
 }
 
-.page-head{
-text-align: center;
+.page-head {
+    text-align: center;
 }
 
 .contact-paragraph {
-text-align: center;
+    text-align: center;
 }
 
 .separator {
@@ -85,6 +102,7 @@ text-align: center;
     background-color: #aaa;
     margin: 0 auto 50px;
 }
+
 .contact-email {
     text-align: center;
     margin-bottom: 40px;
@@ -94,7 +112,11 @@ label {
     display: block;
     font-weight: 100;
 }
-.form-name,.form-email,.form-message,.form-button {
+
+.form-name,
+.form-email,
+.form-message,
+.form-button {
     border-radius: 10px;
     padding: 7px;
 }
@@ -104,18 +126,15 @@ label {
     width: 300px;
     position: relative;
 }
+
 .form-button {
     width: 100px
 }
 
+
 /*-----------------Footer-----------------*/
 
-#footer {
-    
-
-}
-
-
+#footer {}
 
 .alert {
     display: none;
@@ -127,4 +146,12 @@ label {
 
 .image-box {
     float: left;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.navbar-nav {
+    padding-left: 40px;
 }
