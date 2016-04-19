@@ -1,0 +1,138 @@
+/*# sourceMappingURL=new.css.map */
+/* line 4, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+body {
+  padding-top: 150px;
+  font-family: 'Raleway', sans-serif;
+  background: #f6f6f8; }
+
+/*----------------Navbar----------------*/
+/* line 18, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.navbar-default {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  -webkit-box-shadow: -4px 13px 22px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 13px 22px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 13px 22px -13px rgba(0, 0, 0, 0.75); }
+  /* line 23, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+  .navbar-default .navbar-nav > li > a {
+    color: #000; }
+    /* line 25, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+    .navbar-default .navbar-nav > li > a:hover {
+      color: #a9a9ba; }
+  /* line 30, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    padding-top: 40px; }
+
+/* line 35, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.title {
+  color: white;
+  font-size: 2em;
+  font-family: 'Yellowtail', sans-serif;
+  margin-left: 40px; }
+
+/* line 42, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.spanish {
+  margin-left: 5px; }
+
+/* line 46, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.flag {
+  width: 30px;
+  height: 20px;
+  margin: 10px 0 0 10px; }
+  /* line 50, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+  .flag:hover {
+    opacity: .5; }
+
+/*---------------Home-------------------*/
+/* line 61, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.lead.home {
+  margin-bottom: 80px; }
+
+/*----------------Bio-------------------*/
+/* line 68, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.img-rounded {
+  border: 1px solid #453636;
+  height: 160px;
+  width: auto;
+  margin-bottom: 10px; }
+
+/* line 78, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.maddy-row,
+.violeta.row {
+  margin-bottom: 30px; }
+
+/*.col-xs-12.bio-description {
+    margin: 5px;
+    box-sizing: border-box;
+}*/
+/*--------------Contact-----------------*/
+/* line 91, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.lead {
+  width: 75%;
+  margin: 0 auto; }
+
+/* line 96, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.page-head {
+  text-align: center; }
+
+/* line 100, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.contact-paragraph {
+  text-align: center; }
+
+/* line 104, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.separator {
+  height: 2px;
+  width: 150px;
+  background-color: #aaa;
+  margin: 0 auto 50px; }
+
+/* line 111, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.contact-email {
+  text-align: center;
+  margin-bottom: 40px; }
+
+/* line 116, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+label {
+  display: block;
+  font-weight: 100; }
+
+/* line 120, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.form-name,
+.form-email, .form-message, .form-button {
+  border-radius: 10px;
+  padding: 7px; }
+
+/* line 131, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.form-message {
+  height: 100px;
+  width: 300px;
+  position: relative; }
+
+/* line 138, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.form-button {
+  width: 100px; }
+
+/*-----------------Footer-----------------*/
+/* line 148, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.alert {
+  display: none; }
+
+/* line 152, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.bio-description {
+  float: right; }
+
+/* line 156, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.image-box {
+  float: left; }
+
+/* line 160, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.logo {
+  display: inline-block; }
+
+/* line 164, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.navbar-nav {
+  padding-left: 40px; }
+
+/*# sourceMappingURL=new.css.map */

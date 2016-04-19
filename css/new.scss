@@ -1,0 +1,166 @@
+/*# sourceMappingURL=new.css.map */
+
+
+body {
+    padding-top: 150px;
+    font-family: 'Raleway', sans-serif;
+    background: #f6f6f8;
+}
+
+
+/*----------------Navbar----------------*/
+@mixin box-shadow($x){
+    -webkit-box-shadow: $x;
+    -moz-box-shadow: $x;
+    box-shadow: $x; 
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    @include box-shadow(-4px 13px 22px -13px rgba(0, 0, 0, 0.75));
+    .navbar-nav>li>a {
+        color: #000;
+        &:hover {
+            color: #a9a9ba;
+        }
+    }
+    .navbar-collapse,
+    .navbar-form {
+        padding-top: 40px;
+    }
+}
+
+.title {
+    color: white;
+    font-size: 2em;
+    font-family: 'Yellowtail', sans-serif;
+    margin-left: 40px;
+}
+
+.spanish {
+    margin-left: 5px;
+}
+
+.flag {
+    width: 30px;
+    height: 20px;
+    margin: 10px 0 0 10px;
+    &:hover {
+    opacity: .5;
+  }
+}
+
+
+
+
+
+/*---------------Home-------------------*/
+
+.lead.home {
+    margin-bottom: 80px;
+}
+
+
+/*----------------Bio-------------------*/
+
+.img-rounded {
+    border: 1px solid #453636;
+    height: 160px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.name {}
+
+.maddy-row,
+.violeta.row {
+    margin-bottom: 30px;
+}
+
+
+/*.col-xs-12.bio-description {
+    margin: 5px;
+    box-sizing: border-box;
+}*/
+
+
+/*--------------Contact-----------------*/
+
+.lead {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.page-head {
+    text-align: center;
+}
+
+.contact-paragraph {
+    text-align: center;
+}
+
+.separator {
+    height: 2px;
+    width: 150px;
+    background-color: #aaa;
+    margin: 0 auto 50px;
+}
+
+.contact-email {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    font-weight: 100;
+}
+%input-shape {
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.form-name,
+.form-email {
+    @extend %input-shape;
+}
+//may need to separate in order for css to compile?
+
+.form-message {
+    @extend %input-shape;
+    height: 100px;
+    width: 300px;
+    position: relative;
+}
+
+.form-button {
+    @extend %input-shape;
+    width: 100px;
+}
+
+
+/*-----------------Footer-----------------*/
+
+#footer {}
+
+.alert {
+    display: none;
+}
+
+.bio-description {
+    float: right;
+}
+
+.image-box {
+    float: left;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.navbar-nav {
+    padding-left: 40px;
+}
