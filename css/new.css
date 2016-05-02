@@ -148,17 +148,24 @@ label {
   opacity: 0; }
 
 /* line 180, /Users/elizabeth/Documents/Ardilla/css/new.scss */
-.maddy-lightbox, .violeta-lightbox {
+.lightbox {
   position: absolute;
   display: none;
   z-index: 51;
-  top: 30%;
-  left: 30%;
+  opacity: 0;
+  top: 20%;
+  left: 20%;
   width: 500px;
   height: 300px;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
   box-shadow: 10px 10px 75px 11px rgba(0, 0, 0, 0.75); }
+
+/* line 200, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.close {
+  float: right;
+  margin-right: 5px;
+  font-weight: bold; }
 
 /*# sourceMappingURL=new.css.map */

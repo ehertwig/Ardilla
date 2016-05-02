@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    
-    $('.image-box-maddy').click(function(){
-       $('.maddy-lightbox, .backdrop').css('display','block');
-        $('.maddy-lightbox').animate({'opacity':'1.0'}, 300, 'linear');
-       $('.backdrop').css('opacity', '.75');
+
+    $('.image-box').click(function(){
+       $(this).find('.lightbox').css('display','block');
+       $('.backdrop').css({'display':'block', 'opacity':'.6'});
+       $('.lightbox').animate({'opacity':'1.0'}, 400, 'linear');
     });
     
     $('.backdrop').click(function(){
@@ -15,21 +15,10 @@ $(document).ready(function(){
     });
     
     function closeBox(){
-        $('.maddy-lightbox, .backdrop').animate({'opacity': '0'}, 300, 'linear', function(){
-          $('.maddy-lightbox, .backdrop').css('display','none');
+        $('.lightbox, .backdrop').animate({'opacity': '0'}, 300, 'linear', function(){
+          $('.lightbox, .backdrop').css('display','none');
          });
     }
     
-    $('.image-box-violeta').click(function(){
-        $('.violeta-lightbox, .backdrop').css('display','block');
-        $('.violeta-lightbox').animate({'opacity':'1.0'}, 300, 'linear');
-       $('.backdrop').css('opacity', '.75');
-    });
     
-    
-    function closeBox(){
-        $('.violeta-lightbox, .backdrop').animate({'opacity': '0'}, 300, 'linear', function(){
-          $('.violeta-lightbox, .backdrop').css('display','none');
-         });
-    }
 });

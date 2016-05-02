@@ -177,12 +177,13 @@ label {
     
 }
 
-.maddy-lightbox {
+.lightbox {
     position: absolute;
     display: none;
     z-index: 51;
-    top:30%;
-    left:30%;
+    opacity: 0;
+    top:20%;
+    left:20%;
     width: 500px;
     height: 300px;
     padding: 20px;
@@ -194,4 +195,10 @@ label {
 
 .violeta-lightbox {
     @extend .maddy-lightbox;
+}
+
+.close {
+    float:right;
+    margin-right: 5px;
+    font-weight: bold;
 }
