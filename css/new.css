@@ -58,114 +58,128 @@ body {
   width: auto;
   margin-bottom: 10px; }
 
-/* line 78, /Users/elizabeth/Documents/Ardilla/css/new.scss */
-.maddy-row,
-.violeta.row {
-  margin-bottom: 30px; }
+/* line 76, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.team-row {
+  margin: 0 2px 0; }
 
-/*.col-xs-12.bio-description {
+/*.col-xs-12 .bio-description {
     margin: 5px;
     box-sizing: border-box;
 }*/
+/*------------Media Query : Variables and Mixins---------*/
 /*--------------Contact-----------------*/
-/* line 91, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 104, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .lead {
   width: 75%;
   margin: 0 auto; }
 
-/* line 96, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 109, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .page-head {
   text-align: center; }
 
-/* line 100, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 113, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .contact-paragraph {
   text-align: center; }
 
-/* line 104, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 117, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .separator {
   height: 2px;
   width: 150px;
   background-color: #aaa;
   margin: 0 auto 50px; }
 
-/* line 111, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 124, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .contact-email {
   text-align: center;
   margin-bottom: 40px; }
 
-/* line 116, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 129, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 label {
   display: block;
   font-weight: 100; }
 
-/* line 120, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 133, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .form-name,
 .form-email, .form-message, .form-button {
   border-radius: 10px;
   padding: 7px; }
 
-/* line 131, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 144, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .form-message {
   height: 100px;
   width: 300px;
   position: relative; }
 
-/* line 138, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 151, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .form-button {
   width: 100px; }
 
 /*-----------------Footer-----------------*/
-/* line 148, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 161, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .alert {
   display: none; }
 
-/* line 152, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 165, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .bio-description {
-  float: right; }
+  display: inline; }
 
-/* line 156, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 168, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.bio-description > p {
+  margin: 0 0 40px; }
+
+/* line 174, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .image-box {
-  float: left; }
+  float: left;
+  margin-right: 20px;
+  text-align: center; }
 
-/* line 160, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 181, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .logo {
   display: inline-block; }
 
-/* line 164, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 185, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .navbar-nav {
   padding-left: 40px; }
 
-/* line 167, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 188, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .backdrop {
   position: absolute;
   display: none;
-  z-index: 50;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 600%;
   background: #000;
   opacity: 0; }
 
-/* line 180, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 201, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .lightbox {
   position: absolute;
   display: none;
-  z-index: 51;
+  z-index: 2;
   opacity: 0;
-  top: 20%;
-  left: 20%;
-  width: 500px;
-  height: 300px;
-  padding: 20px;
+  width: 75%;
+  height: 75%;
+  padding: 5%;
   background: #fff;
   border-radius: 5px;
   box-shadow: 10px 10px 75px 11px rgba(0, 0, 0, 0.75); }
 
-/* line 200, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+/* line 219, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .close {
   float: right;
-  margin-right: 5px;
   font-weight: bold; }
+
+/* line 225, /Users/elizabeth/Documents/Ardilla/css/new.scss */
+.lightbox-violeta {
+  top: 0%;
+  left: 0%; }
+
+/*.lightbox-maddy {
+    top:0;
+    left:30%;
+}
+*/
 
 /*# sourceMappingURL=new.css.map */
