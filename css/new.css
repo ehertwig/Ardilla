@@ -140,6 +140,13 @@ label {
 .logo {
   display: inline-block; }
 
+@media (max-width: 768px){
+    .logo{
+        height: 40px;
+        width: auto;
+        margin: 0;
+    }
+}
 /* line 188, /Users/elizabeth/Documents/Ardilla/css/new.scss */
 .navbar-nav {
   padding-left: 40px; }
