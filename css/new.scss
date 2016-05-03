@@ -75,6 +75,9 @@ body {
 
 .team-row {
     margin: 0 2px 0;
+    @include tablet {
+        margin: 0;
+    }
 }
 
 
@@ -175,7 +178,7 @@ label {
     float: left;
     margin-right: 20px;
     text-align: center;
-
+    
 }
 
 .logo {
@@ -209,6 +212,7 @@ label {
     background: #fff;
     border-radius: 5px;
     box-shadow: 10px 10px 75px 11px rgba(0,0,0,0.75);
+    box-sizing: border-box;
 
 }
 

@@ -6,9 +6,7 @@ $(document).ready(function(){
        $('.lightbox').animate({'opacity':'1.0'}, 400, 'linear');
     });
     
-    $('.backdrop').click(function(){
-        closeBox();
-    });
+    $('.backdrop').click(closeBox);
     
     $('.close').click(function(){
         closeBox();
